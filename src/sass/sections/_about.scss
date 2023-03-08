@@ -29,6 +29,10 @@
       align-items: center;
       justify-content: center;
 
+      img {
+        transform: rotate(90deg);
+      }
+
       @include respond(tab-land) {
         height: 100%;
       }
